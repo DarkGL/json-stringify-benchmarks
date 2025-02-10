@@ -1,0 +1,37 @@
+{
+	"name": "json-stringify-benchmark",
+	"version": "1.0.0",
+	"description": "Benchmark for JSON stringification",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc"
+	},
+	"peerDependencies": {
+		"@sinclair/typebox": ">= 0.34.0"
+	},
+	"peerDependenciesMeta": {
+		"@sinclair/typebox": {
+			"optional": true
+		}
+	},
+	"dependencies": {
+		"@types/node": "22.13.1",
+		"dequal": "2.0.3",
+		"elysia": "1.2.12",
+		"eslint": "9.20.0",
+		"fast-json-stringify": "6.0.1",
+		"json-accelerator": "0.0.2",
+		"mitata": "1.0.34",
+		"slow-json-stringify": "2.0.1",
+		"tsup": "8.3.6",
+		"tsx": "4.19.2",
+		"typescript": "5.7.3",
+		"worst-json-stringify": "1.0.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DarkGL/json-stringify-benchmarks"
+	},
+	"homepage": "https://github.com/DarkGL/json-stringify-benchmarks",
+	"bugs": "https://github.com/DarkGL/json-stringify-benchmarks/issues"
+}
